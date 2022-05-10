@@ -1,0 +1,9 @@
+@import '../../node_modules/scss-reset/_reset.scss';
+@import './global.scss';
+
+@import '../components/wrapper/wrapper.scss';
+@import '../components/links/appLink/appLink.scss';
+@import '../components/mainTitle/mainTitle.scss';
+@import '../components/description/landingDescription.scss';
+@import '../components/buttons/installButton/intstallButton.scss';
+@import '../components/links/privacyPolicy/privacyPolicy.scss';

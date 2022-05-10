@@ -1,0 +1,8 @@
+.landingDescription {
+    font-size: 16px;
+    font-weight: 600;
+
+    @media (min-width: $tablet) {
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,26 @@
+.privacyPolicy {
+    &__link {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 600;
+
+        color: #ffffff;
+
+        cursor: pointer;
+        text-decoration: none;
+
+        &:visited {
+            color: #ffffff;
+        }
+
+        &:active {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+
+        &:hover {
+            color: #ffffff;
+            text-decoration: underline; 
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "stylelint-config-rational-order",
+    "stylelint-config-standard-scss",
+    "stylelint-config-prettier-scss"
+  ],
+  "rules": {
+    "declaration-no-important": true,
+    "indentation": [2, {"ignore": ["inside-parens"]}]
+  }
+}

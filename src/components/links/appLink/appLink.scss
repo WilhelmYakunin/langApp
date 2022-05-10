@@ -1,0 +1,35 @@
+.appLink {
+
+    max-width: 100px;
+
+    @media (min-width: $tablet) {
+        max-width: 190px;
+    }
+
+    @media (min-width: $desktop) {
+        max-width: 270px;
+    }
+    
+
+    &--flex-middle {
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo-img {
+        max-width: 40px;
+        max-height: 32px;
+
+        object-fit: cover;
+
+        @media (min-width: $tablet) {
+            max-width: 70px;
+            max-height: 48px;
+        }
+    }
+
+    &__logo-text {
+        margin-left: 20px;
+        max-height: 40px;
+    }
+}
