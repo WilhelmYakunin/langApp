@@ -1,16 +1,28 @@
 {
   "files": {
-    "main.css": "/langApp/static/css/main.073c9b0a.css",
-    "main.js": "/langApp/static/js/main.90391dfb.js",
-    "static/js/787.3595e1ef.chunk.js": "/langApp/static/js/787.3595e1ef.chunk.js",
-    "static/media/logo.svg": "/langApp/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/langApp/static/css/main.217a1da8.css",
+    "main.js": "/langApp/static/js/main.d2407a60.js",
+    "static/media/background_langAppLanding.png": "/langApp/static/media/background_langAppLanding.307c1d66bd754a9d54f1.png",
+    "static/media/Number=5@2x.png": "/langApp/static/media/Number=5@2x.a87fd701f37b9ebe9230.png",
+    "static/media/Number=5.png": "/langApp/static/media/Number=5.39afe89d5e7ea1c09503.png",
+    "static/media/Number=1@2x.png": "/langApp/static/media/Number=1@2x.ea5478a16f82ff628304.png",
+    "static/media/poppins-v20-latin-regular.svg": "/langApp/static/media/poppins-v20-latin-regular.04277a799cb3f1b29dfa.svg",
+    "static/media/Number=4@2x.png": "/langApp/static/media/Number=4@2x.244d809bca33506e0498.png",
+    "static/media/Number=1.png": "/langApp/static/media/Number=1.4cf8b96f3856bb4ae5d8.png",
+    "static/media/Number=2@2x.png": "/langApp/static/media/Number=2@2x.29269681ba6ef8ff955e.png",
+    "static/media/poppins-v20-latin-regular.ttf": "/langApp/static/media/poppins-v20-latin-regular.80946c0880373b223d9c.ttf",
+    "static/media/Number=4.png": "/langApp/static/media/Number=4.a188f6731c9731c8d124.png",
+    "static/media/poppins-v20-latin-regular.woff": "/langApp/static/media/poppins-v20-latin-regular.f61407da33b59324fbef.woff",
+    "static/media/poppins-v20-latin-regular.eot": "/langApp/static/media/poppins-v20-latin-regular.27a38aa36ed539d2b33f.eot",
+    "static/media/poppins-v20-latin-regular.woff2": "/langApp/static/media/poppins-v20-latin-regular.405055dd680fa1dcdfa2.woff2",
+    "static/media/Previous_button.svg": "/langApp/static/media/Previous_button.9faba6145e5c987d4260f1883c5b9988.svg",
+    "static/media/Next_button.svg": "/langApp/static/media/Next_button.f01a16c3e8e5ad732ef5a056cdbb7744.svg",
     "index.html": "/langApp/index.html",
-    "main.073c9b0a.css.map": "/langApp/static/css/main.073c9b0a.css.map",
-    "main.90391dfb.js.map": "/langApp/static/js/main.90391dfb.js.map",
-    "787.3595e1ef.chunk.js.map": "/langApp/static/js/787.3595e1ef.chunk.js.map"
+    "main.217a1da8.css.map": "/langApp/static/css/main.217a1da8.css.map",
+    "main.d2407a60.js.map": "/langApp/static/js/main.d2407a60.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.90391dfb.js"
+    "static/css/main.217a1da8.css",
+    "static/js/main.d2407a60.js"
   ]
 }
