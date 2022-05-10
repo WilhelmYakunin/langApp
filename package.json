@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "gh-pages": "^3.2.3",
     "lodash.toarray": "^4.4.0",
+    "node-sass": "^7.0.1",
     "react": "^18.1.0",
     "react-animated-slider": "^1.1.4",
     "react-anime": "^4.1.1",
@@ -20,7 +21,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "dev": "concurrently \"node-sass -w ./src/sass/appSass.scss src/css/appStyles.css\" \"react-scripts start\"",
+    "dev": "concurrently --kill-others \"node-sass -w ./src/sass/appSass.scss src/css/appStyles.css\" \"react-scripts start\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "lint": "stylelint src/**/*.scss --fix",

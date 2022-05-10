@@ -7,6 +7,7 @@ export const HORIZONTAL = 'horizontal';
 export const VERTICAL = 'vertical';
 
 const DEFAULT_CLASSNAMES = {
+    buttons: 'buttons',
 	previousButton: 'previousButton',
 	nextButton: 'nextButton',
 	buttonDisabled: 'disabled',
@@ -63,7 +64,7 @@ class Slider extends React.PureComponent {
 		}
 	}
 
-	componentWillReceiveProps(props) {
+	UNSAFE_componentWillReceiveProps(props) {
 		this.slideCount = React.Children.count(props.children);
 		if (this.state.currentSlideIndex >= this.slideCount) {
 			this.setState({ currentSlideIndex: 0 });
@@ -305,18 +306,20 @@ class Slider extends React.PureComponent {
 					onMouseOut: this.handleMouseOut,
 				}}
 			>
-				<a
-					onClick={this.previous}
-					className={`${classNames.previousButton}${isDisabled || !this.canGoPrevious() ? ` ${classNames.buttonDisabled}` : ''}`}
-				>
+                <div className={classNames.buttons}>
+				    <a
+					    onClick={this.previous}
+					    className={`${classNames.previousButton}${isDisabled || !this.canGoPrevious() ? ` ${classNames.buttonDisabled}` : ''}`}
+				    >
 					{previousButton}
-				</a>
-				<a
-					onClick={this.next}
-					className={`${classNames.nextButton}${isDisabled || !this.canGoNext() ? ` ${classNames.buttonDisabled}` : ''}`}
-				>
-					{nextButton}
-				</a>
+				    </a>
+				    <a
+					    onClick={this.next}
+					    className={`${classNames.nextButton}${isDisabled || !this.canGoNext() ? ` ${classNames.buttonDisabled}` : ''}`}
+				    >
+					    {nextButton}
+				    </a>
+                </div>
 				<div className={classNames.track}>
 					{React.Children.map(children, (item, index) => (
 						React.cloneElement(item, {

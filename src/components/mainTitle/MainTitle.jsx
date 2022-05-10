@@ -1,7 +1,7 @@
 import React from "react";
 import ReactRotatingText from "./RotatingText";
 
-const languages = ['english', 'spanish', 'chineese', 'french', 'german', ]
+const languages = ['English', 'Spanish', 'Chineese', 'French', 'German', ]
 
 const MainTitle = () => {
     return(
@@ -9,11 +9,11 @@ const MainTitle = () => {
                 <span className="mainTitle__letters">Learn&nbsp;
                     <ReactRotatingText 
                     items={languages} 
-                    emptyPause={1000}
+                    emptyPause={100}
                     deletingInterval={50}
                     eraseMode={'erase'}
-                    pause={1500}
-                    typingInterval={50}
+                    pause={3000}
+                    typingInterval={250}
                     random={false}
                     />
                 </span>

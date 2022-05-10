@@ -1,33 +1,36 @@
-.mainTitle {   
-    font-size: 24px;
-    line-height: 140%;
-    font-weight: 600;
+.mainTitle {
+  font-weight: 600;   
+  font-size: 24px;
+  line-height: 140%;
+
+  @media (min-width: $tablet) {
+    width: 50%;
+  }
+
+  @media (min-width: $desktop) {
+    font-size: 46px;
+  }
+
+  &__letters--stylish::after {
+    position: absolute;
+    left: 15px;
+    z-index: -1;
+    width: 100px;
+    height: 30px;
+    background: #F7D73B;
+    transform: skewX(-15deg);
+    content: "";
+
+    @media (min-width: $tablet) and (max-width: $desktop) {
+      left: 10px;
+      width: 110px;
+      height: 40px;
+    }
 
     @media (min-width: $desktop) {
-        font-size: 46px;
+      left: 100px;
+      width: 200px;
+      height: 62px;
     }
-
-    &__letters--stylish::after {
-        position: absolute;
-        content: "";
-        z-index: -1;
-        background: #F7D73B;
-        transform: skewX(-15deg);
-
-        width: 100px;
-        height: 30px;
-        left: 0;
-
-        @media (min-width: $tablet) and (max-width: $desktop) {
-            width: 110px;
-            height: 40px;
-            left: 80px;
-        }
-
-        @media (min-width: $desktop) {
-            width: 200px;
-            height: 62px;
-            left: 80px;
-        }
-    }
+  }
 }
