@@ -10,8 +10,6 @@
     "lodash.toarray": "^4.4.0",
     "node-sass": "^7.0.1",
     "react": "^18.1.0",
-    "react-animated-slider": "^1.1.4",
-    "react-anime": "^4.1.1",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
     "scss-reset": "^1.2.2",

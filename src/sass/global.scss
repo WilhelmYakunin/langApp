@@ -9,19 +9,33 @@ $desktop: 1024px;
   src: url('../fonts/poppins-v20-latin-regular.eot'); /* IE9 Compat Modes */
   src: local(''),
     url('../fonts/poppins-v20-latin-regular.eot?#iefix') format('embedded-opentype'), 
-         url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'), 
-         url('../fonts/poppins-v20-latin-regular.woff') format('woff'), 
-         url('../fonts/poppins-v20-latin-regular.ttf') format('ttf'), 
-         url('../fonts/poppins-v20-latin-regular.svg') format('svg')    ; /* Legacy iOS */
+    url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'), 
+    url('../fonts/poppins-v20-latin-regular.woff') format('woff'), 
+    url('../fonts/poppins-v20-latin-regular.ttf') format('ttf'), 
+    url('../fonts/poppins-v20-latin-regular.svg') format('svg'); /* Legacy iOS */
 }
   
 body {
   width: 100vw;
   min-height: 100vh;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   background: url('/public/background_langAppLanding.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+
+body::after {
+  position: absolute;
+  top: 0; 
+  right: -50%;
+  bottom: 0; 
+  left: 50%;
+  z-index: -1;
+  height: 100vh;
+  background:#fff;
+  border-radius: 50%;
+  opacity: 0.08;
+  content: '';
 }
 

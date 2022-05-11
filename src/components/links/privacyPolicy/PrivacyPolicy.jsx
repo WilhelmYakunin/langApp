@@ -2,7 +2,7 @@ import React from "react";
 
 const PrivacyPolicy = () => {
     return(
-        <a href="./" className="privacyPolicy privacyPolicy__link">
+        <a href="./" className="privacy-policy privacy-policy__link">
             <span>
                 Privacy&nbsp;Policy
             </span>  

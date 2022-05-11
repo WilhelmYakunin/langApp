@@ -6,6 +6,7 @@
   ],
   "rules": {
     "declaration-no-important": true,
-    "indentation": [2, {"ignore": ["inside-parens"]}]
+    "indentation": [2, {"ignore": ["inside-parens"]}],
+    "scss/at-import-partial-extension": null
   }
 }

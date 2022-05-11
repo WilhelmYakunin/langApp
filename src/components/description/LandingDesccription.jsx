@@ -2,7 +2,7 @@ import React from "react";
 
 const LandingDesccription = () => {
     return(
-        <h2 className="landingDescription">
+        <h2 className="landing-description">
                 <span>
                 Access to subtitles in a foreign language,
                 save and review new words and phrases,

@@ -5,8 +5,8 @@ const languages = ['English', 'Spanish', 'Chineese', 'French', 'German', ]
 
 const MainTitle = () => {
     return(
-        <h1 className="mainTitle">
-                <span className="mainTitle__letters">Learn&nbsp;
+        <h1 className="main-title">
+                <span className="main-title__letters">Learn&nbsp;
                     <ReactRotatingText 
                     items={languages} 
                     emptyPause={100}
@@ -18,9 +18,9 @@ const MainTitle = () => {
                     />
                 </span>
                 <br></br>
-                <span className="mainTitle__letters">using any YouTube video </span>
+                <span className="main-tTitle__letters">using any YouTube video </span>
                 <br></br>
-                <span className="mainTitle__letters mainTitle__letters--stylish">for free!</span>  
+                <span className="main-title__letters main-title__letters--stylish">for free!</span>  
         </h1>
     )
 }

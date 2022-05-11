@@ -6,17 +6,11 @@
   padding-top: 40px;
   padding-bottom: 25px;
 
-  @media (min-width: $tablet) {
-    padding-top: 50px;
-  }
-
-
   @media (min-width: $desktop) {
     display: flex;
     flex-direction: column;
     gap: 20px;
     justify-content: space-between;
-    padding-top: 140px;
     padding-right: 90px;
     padding-left: 90px;
   }

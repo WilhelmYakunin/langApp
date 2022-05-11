@@ -1,10 +1,13 @@
-@import '../../node_modules/scss-reset/_reset';
-@import './global';
-@import '../components/wrapper/wrapper';
-@import '../components/container/container';
-@import '../components/links/appLink/appLink';
-@import '../components/mainTitle/mainTitle';
-@import '../components/description/landingDescription';
-@import '../components/buttons/installButton/intstallButton';
-@import '../components/links/privacyPolicy/privacyPolicy';
-@import '../components/previewSlider/slider';
+/* stylelint-disable */
+@import '../../node_modules/scss-reset/_reset.scss';
+/* stylelint-enable */
+
+@import './global.scss';
+@import '../components/wrapper/wrapper.scss';
+@import '../components/container/container.scss';
+@import '../components/links/appLink/appLink.scss';
+@import '../components/mainTitle/mainTitle.scss';
+@import '../components/description/landingDescription.scss';
+@import '../components/installButton/intstallButton.scss';
+@import '../components/links/privacyPolicy/privacyPolicy.scss';
+@import '../components/previewSlider/slider.scss';

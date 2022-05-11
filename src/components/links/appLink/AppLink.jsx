@@ -6,10 +6,10 @@ import logoText2x from './logoText@2x.png';
 
 const AppLink = () => {
     return(
-        <a href="./" className="appLink appLink--flex-middle">
-            <img className="appLink__logo-img" src={logoImg} alt="лого приложения"
+        <a href="./" className="app-link app-link--flex-middle">
+            <img className="app-link__logo-img" src={logoImg} alt="лого приложения"
             srcSet={logoImg2x} />
-            <img className="appLink__logo-text" src={logoText} alt="лого приложения"
+            <img className="app-link__logo-text" src={logoText} alt="лого приложения"
             srcSet={logoText2x} />
         </a>
     )

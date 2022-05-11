@@ -10,13 +10,22 @@ import slide4 from './img/Number=4.png';
 import slide4_2x from './img/Number=4@2x.png';
 import slide5 from './img/Number=5.png';
 import slide5_2x from './img/Number=5@2x.png';
+import slide6 from './img/Number=6.png';
+import slide6_2x from './img/Number=6@2x.png';
+import slide7 from './img/Number=7.png';
+import slide7_2x from './img/Number=7@2x.png';
+import slide8 from './img/Number=8.png';
+import slide8_2x from './img/Number=8@2x.png';
+import slide9 from './img/Number=9.png';
+import slide9_2x from './img/Number=9@2x.png';
+import slide10 from './img/Number=10.png';
+import slide10_2x from './img/Number=10@2x.png';
 
 const slides = [
     {
         image: `${slide1}`,
         image2x: `${slide1_2x}`,
     },
-
     {
         image: `${slide2}`,
         image2x: `${slide2_2x}`,
@@ -28,6 +37,26 @@ const slides = [
     {
         image: `${slide5}`,
         image2x: `${slide5_2x}`,
+    },
+    {
+        image: `${slide6}`,
+        image2x: `${slide6_2x}`,
+    },
+    {
+        image: `${slide7}`,
+        image2x: `${slide7_2x}`,
+    },
+    {
+        image: `${slide8}`,
+        image2x: `${slide8_2x}`,
+    },
+    {
+        image: `${slide9}`,
+        image2x: `${slide9_2x}`,
+    },
+    {
+        image: `${slide10}`,
+        image2x: `${slide10_2x}`,
     }
  ]
 
@@ -47,8 +76,8 @@ const PreviewSlider = () => {
     return(
         <Slider 
             infinite 
-            autoplay='4000'
-            duration='100'
+            autoplay='3000'
+            duration='1000'
             previousButton={<BackButton />}
             nextButton={<NextButton />}
             className="slider">
