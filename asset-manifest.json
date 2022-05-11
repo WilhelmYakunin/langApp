@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/langApp/static/css/main.66f98cf8.css",
+    "main.css": "/langApp/static/css/main.5d42634a.css",
     "main.js": "/langApp/static/js/main.cef26247.js",
     "static/media/background_langAppLanding.png": "/langApp/static/media/background_langAppLanding.307c1d66bd754a9d54f1.png",
     "static/media/Number=5@2x.png": "/langApp/static/media/Number=5@2x.a87fd701f37b9ebe9230.png",
@@ -28,11 +28,11 @@
     "static/media/Previous_button.svg": "/langApp/static/media/Previous_button.9faba6145e5c987d4260f1883c5b9988.svg",
     "static/media/Next_button.svg": "/langApp/static/media/Next_button.f01a16c3e8e5ad732ef5a056cdbb7744.svg",
     "index.html": "/langApp/index.html",
-    "main.66f98cf8.css.map": "/langApp/static/css/main.66f98cf8.css.map",
+    "main.5d42634a.css.map": "/langApp/static/css/main.5d42634a.css.map",
     "main.cef26247.js.map": "/langApp/static/js/main.cef26247.js.map"
   },
   "entrypoints": [
-    "static/css/main.66f98cf8.css",
+    "static/css/main.5d42634a.css",
     "static/js/main.cef26247.js"
   ]
 }
