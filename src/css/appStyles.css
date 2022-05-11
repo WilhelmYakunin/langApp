@@ -535,8 +535,6 @@ template {
   /* Legacy iOS */ }
 
 body {
-  width: 100vw;
-  min-height: 100vh;
   font-family: Poppins, sans-serif;
   background: url("/public/background_langAppLanding.png");
   background-repeat: no-repeat;
@@ -546,13 +544,12 @@ body {
 body::after {
   position: absolute;
   top: 0;
-  right: -50%;
   bottom: 0;
+  right: 0%;
   left: 50%;
   z-index: -1;
-  height: 100vh;
   background: #fff;
-  border-radius: 50%;
+  border-radius: 100% 0 0 100% / 50% 0 0 50%;
   opacity: 0.08;
   content: ''; }
 
