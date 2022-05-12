@@ -536,7 +536,7 @@ template {
 
 body {
   font-family: Poppins, sans-serif;
-  background: url("/public/background_langAppLanding.png");
+  background: url("/public/background_langAppLanding.webp");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; }
@@ -753,19 +753,19 @@ body::after {
   .slider__slide.animate-out.previous {
     left: 100%; }
   .slider__slide.animate-out.next {
-    right: -100%; }
+    left: -100%; }
 
 .hidden {
   visibility: hidden; }
 
 .previous {
-  left: 100%; }
+  left: -100%; }
 
 .current {
   left: 0; }
 
 .next {
-  left: -100%; }
+  left: 100%; }
 
 .animate-in,
 .animate-out {

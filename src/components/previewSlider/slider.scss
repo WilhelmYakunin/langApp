@@ -75,7 +75,7 @@
   }
   
   &__slide.animate-out.next {
-    right: -100%;
+    left: -100%;
   }
 }
 
@@ -84,7 +84,7 @@
 }
 
 .previous {
-  left: 100%;
+  left: -100%;
 }
 
 .current {
@@ -92,7 +92,7 @@
 }
 
 .next {
-  left: -100%;
+  left: 100%;
 }
 
 .animate-in,

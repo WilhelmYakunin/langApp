@@ -1,6 +1,6 @@
 import React from "react";
-import GoogleStoreIcon from './Google_Store_icon_2015.png';
-import GoogleStoreIcon2x from './Google_Store_icon_2015@2x.png';
+import GoogleStoreIcon from './Google_Store_icon_2015.webp';
+import GoogleStoreIcon2x from './Google_Store_icon_2015@2x.webp';
 
 const IstallButton = () => {
     return(

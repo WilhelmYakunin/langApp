@@ -1,8 +1,8 @@
 import React from "react";
-import logoImg from './logoImg.png';
-import logoImg2x from './logoImg@2x.png';
-import logoText from './logoText.png';
-import logoText2x from './logoText@2x.png';
+import logoImg from './logoImg.webp';
+import logoImg2x from './logoImg@2x.webp';
+import logoText from './logoText.webp';
+import logoText2x from './logoText@2x.webp';
 
 const AppLink = () => {
     return(

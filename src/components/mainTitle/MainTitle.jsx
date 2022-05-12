@@ -7,7 +7,7 @@ const MainTitle = () => {
     return(
         <h1 className="main-title">
                 <span className="main-title__letters">Learn&nbsp;
-                    <ReactRotatingText 
+                    <ReactRotatingText
                     items={languages} 
                     emptyPause={100}
                     deletingInterval={50}
