@@ -21,6 +21,13 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+
+  @media screen and (min-resolution: 2dppx) {
+    background: url('/public/background_langAppLanding@2x.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
 }
 
 body::after {
