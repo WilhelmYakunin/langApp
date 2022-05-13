@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/langApp/static/css/main.1591766c.css",
+    "main.css": "/langApp/static/css/main.7b367f63.css",
     "main.js": "/langApp/static/js/main.fa4fb5f4.js",
     "static/media/Number=2@2x.webp": "/langApp/static/media/Number=2@2x.cf4f73cb890cda4a36d9.webp",
     "static/media/poppins-v20-latin-regular.svg": "/langApp/static/media/poppins-v20-latin-regular.04277a799cb3f1b29dfa.svg",
@@ -18,7 +18,6 @@
     "static/media/poppins-v20-latin-regular.woff": "/langApp/static/media/poppins-v20-latin-regular.f61407da33b59324fbef.woff",
     "static/media/Number=1.webp": "/langApp/static/media/Number=1.2cf81cff2f04785bd4df.webp",
     "static/media/poppins-v20-latin-regular.eot": "/langApp/static/media/poppins-v20-latin-regular.27a38aa36ed539d2b33f.eot",
-    "static/media/background_langAppLanding.webp": "/langApp/static/media/background_langAppLanding.11f680cab9857e87f957.webp",
     "static/media/poppins-v20-latin-regular.woff2": "/langApp/static/media/poppins-v20-latin-regular.405055dd680fa1dcdfa2.woff2",
     "static/media/Number=3@2x.webp": "/langApp/static/media/Number=3@2x.64bbd1f144384b7663ce.webp",
     "static/media/Number=9.webp": "/langApp/static/media/Number=9.a87e0e17502d1a81e4df.webp",
@@ -35,11 +34,11 @@
     "static/media/Previous_button.svg": "/langApp/static/media/Previous_button.9faba6145e5c987d4260f1883c5b9988.svg",
     "static/media/Next_button.svg": "/langApp/static/media/Next_button.f01a16c3e8e5ad732ef5a056cdbb7744.svg",
     "static/media/Google_Store_icon_2015.webp": "/langApp/static/media/Google_Store_icon_2015.b57fb8c50f131750758f.webp",
-    "main.1591766c.css.map": "/langApp/static/css/main.1591766c.css.map",
+    "main.7b367f63.css.map": "/langApp/static/css/main.7b367f63.css.map",
     "main.fa4fb5f4.js.map": "/langApp/static/js/main.fa4fb5f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.1591766c.css",
+    "static/css/main.7b367f63.css",
     "static/js/main.fa4fb5f4.js"
   ]
 }
