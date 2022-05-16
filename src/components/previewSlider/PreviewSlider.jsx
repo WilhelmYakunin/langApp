@@ -83,7 +83,7 @@ const PreviewSlider = () => {
             nextButton={<NextButton />}
             className="slider">
             {slides.map((slide, index) => (
-                <img className="slide" key={index} src={slide.image} srcSet={slide.image2x} alt="slide of the app" loading="lazy"/>
+                <img className="slide" key={index} src={slide.image} srcSet={slide.image2x} alt="slide of the app" />
             ))}
       </Slider>
     )

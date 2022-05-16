@@ -64,14 +64,9 @@ class Slider extends React.PureComponent {
 		}
 	}
 
-	UNSAFE_componentWillReceiveProps(props) {
-		this.slideCount = React.Children.count(props.children);
-		if (this.state.currentSlideIndex >= this.slideCount) {
-			this.setState({ currentSlideIndex: 0 });
-		}
-	}
-
 	setupAutoplay = () => {
+
+		
 		if (this.props.autoplay && !this.isMouseOver) {
 			this.stopAutoplay();
 			this.autoplayTimerId = setInterval(
