@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/langApp/static/css/main.7b367f63.css",
-    "main.js": "/langApp/static/js/main.fa4fb5f4.js",
+    "main.css": "/langApp/static/css/main.d8381c33.css",
+    "main.js": "/langApp/static/js/main.ef6b572b.js",
     "static/media/Number=2@2x.webp": "/langApp/static/media/Number=2@2x.cf4f73cb890cda4a36d9.webp",
     "static/media/poppins-v20-latin-regular.svg": "/langApp/static/media/poppins-v20-latin-regular.04277a799cb3f1b29dfa.svg",
     "static/media/Number=6@2x.webp": "/langApp/static/media/Number=6@2x.fc11b5ff2b1ab7551f56.webp",
+    "static/media/background_langAppLanding@2x.webp": "/langApp/static/media/background_langAppLanding@2x.750fc6de401d5b0f86b7.webp",
     "static/media/Number=7@2x.webp": "/langApp/static/media/Number=7@2x.8905c79df927035c8c62.webp",
     "static/media/Number=2.webp": "/langApp/static/media/Number=2.f361071ac2316fe5f776.webp",
     "static/media/Number=1@2x.webp": "/langApp/static/media/Number=1@2x.e793201d75860575e2af.webp",
@@ -18,6 +19,7 @@
     "static/media/poppins-v20-latin-regular.woff": "/langApp/static/media/poppins-v20-latin-regular.f61407da33b59324fbef.woff",
     "static/media/Number=1.webp": "/langApp/static/media/Number=1.2cf81cff2f04785bd4df.webp",
     "static/media/poppins-v20-latin-regular.eot": "/langApp/static/media/poppins-v20-latin-regular.27a38aa36ed539d2b33f.eot",
+    "static/media/background_langAppLanding.webp": "/langApp/static/media/background_langAppLanding.11f680cab9857e87f957.webp",
     "static/media/poppins-v20-latin-regular.woff2": "/langApp/static/media/poppins-v20-latin-regular.405055dd680fa1dcdfa2.woff2",
     "static/media/Number=3@2x.webp": "/langApp/static/media/Number=3@2x.64bbd1f144384b7663ce.webp",
     "static/media/Number=9.webp": "/langApp/static/media/Number=9.a87e0e17502d1a81e4df.webp",
@@ -30,15 +32,15 @@
     "static/media/logoText.webp": "/langApp/static/media/logoText.f3a26cc930d0dde76097.webp",
     "static/media/Google_Store_icon_2015@2x.webp": "/langApp/static/media/Google_Store_icon_2015@2x.4863388d36e8353d34fe.webp",
     "static/media/logoImg.webp": "/langApp/static/media/logoImg.433ae5a256bd54474d30.webp",
-    "index.html": "/langApp/index.html",
     "static/media/Previous_button.svg": "/langApp/static/media/Previous_button.9faba6145e5c987d4260f1883c5b9988.svg",
     "static/media/Next_button.svg": "/langApp/static/media/Next_button.f01a16c3e8e5ad732ef5a056cdbb7744.svg",
+    "index.html": "/langApp/index.html",
     "static/media/Google_Store_icon_2015.webp": "/langApp/static/media/Google_Store_icon_2015.b57fb8c50f131750758f.webp",
-    "main.7b367f63.css.map": "/langApp/static/css/main.7b367f63.css.map",
-    "main.fa4fb5f4.js.map": "/langApp/static/js/main.fa4fb5f4.js.map"
+    "main.d8381c33.css.map": "/langApp/static/css/main.d8381c33.css.map",
+    "main.ef6b572b.js.map": "/langApp/static/js/main.ef6b572b.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b367f63.css",
-    "static/js/main.fa4fb5f4.js"
+    "static/css/main.d8381c33.css",
+    "static/js/main.ef6b572b.js"
   ]
 }
