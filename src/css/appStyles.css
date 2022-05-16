@@ -540,12 +540,18 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; }
+  @media screen and (min-resolution: 2dppx) {
+    body {
+      background: url("/public/background_langAppLanding@2x.webp");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover; } }
 
 body::after {
   position: absolute;
   top: 0;
-  bottom: 0;
   right: 0%;
+  bottom: 0;
   left: 50%;
   z-index: -1;
   background: #fff;
